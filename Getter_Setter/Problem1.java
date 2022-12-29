@@ -42,10 +42,10 @@ public class Problem1 {
         System.out.println(runCat.getWeight()); // 이렇게 해도 불러와짐
     }
 }
-class RunCat { // 클래스
-    private String name; // private로 접근 금지
+class RunCat { // getter setter 사용할 클래스
+    private String name; // private 으로 접근 금지 시켜놈
     private int age;
-    private int weight; // 클래스 필드의 인스턴스 변수
+    private int weight;
 
     public void setName(String name) {
         this.name = name;
